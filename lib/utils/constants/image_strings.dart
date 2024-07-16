@@ -1,7 +1,7 @@
 class MImage {
   // -- App Logo
-  static const String darkAppLogo = "lib/assets/logos/go_shopping.png";
-  static const String lightAppLogo = "lib/assets/logos/go_shopping.png";
+  static const String darkAppLogo = "lib/assets/logos/goshopping.png";
+  static const String lightAppLogo = "lib/assets/logos/goshopping.png";
 
   // -- Social Logos
   static const String facebook = "lib/assets/logos/fb.png";
