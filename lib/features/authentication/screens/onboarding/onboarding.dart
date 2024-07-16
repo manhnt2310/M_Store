@@ -6,7 +6,7 @@ import 'package:m_store/features/authentication/screens/onboarding/widgets/onboa
 import 'package:m_store/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
 import 'package:m_store/utils/constants/image_strings.dart';
 import 'package:m_store/utils/constants/text_strings.dart';
-import '../../controllers.onboarding/onboarding_controller.dart';
+import '../../controllers/onboarding/onboarding_controller.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
