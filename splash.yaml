@@ -1,0 +1,13 @@
+flutter_native_splash:
+  color: "FFFFFF"
+  color_dark: "272727"
+  image: F:/projects/flu/m_store/lib/assets/logos/go shopping.png
+  image_dark: F:/projects/flu/m_store/lib/assets/logos/go shopping.png
+
+  android_12:
+    color: "FFFFFF"
+    color_dark: "272727"
+    image: F:/projects/flu/m_store/lib/assets/logos/go shopping.png
+    image_dark: F:/projects/flu/m_store/lib/assets/logos/go shopping.png
+
+  web: false
