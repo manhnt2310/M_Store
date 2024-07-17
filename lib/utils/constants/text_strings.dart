@@ -15,6 +15,8 @@ class MTexts {
   static const String homeAppbarSubTitle = "Manh Nguyen The";
   static const String and = "and";
   static const String mContinue = "Continue";
+  static const String submit = "Submit";
+  static const String done = "Done";
 
   ///-- Authentication Form Texts
   static const String firstName = "First Name";
