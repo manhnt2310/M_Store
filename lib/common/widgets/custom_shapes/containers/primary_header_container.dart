@@ -14,12 +14,15 @@ class MPrimaryHeaderContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MCurvedEdgeWidget(
-      child: Container(
-        color: MColors.primary,
-        padding: const EdgeInsets.only(bottom: 0),
-        child: SizedBox(
+      child: SizedBox(
+        height: 400,
+        child: Container(
+          color: MColors.primary,
+
+          /// -- [size.isFinite': is not true] Error
           child: Stack(
             children: [
+              /// -- Background Custom Shapes
               Positioned(
                 top: -150,
                 right: -250,
@@ -32,6 +35,7 @@ class MPrimaryHeaderContainer extends StatelessWidget {
                 child: MCircularContainer(
                     backgroundColor: MColors.textWhite.withOpacity(0.1)),
               ),
+              child,
             ],
           ),
         ),
