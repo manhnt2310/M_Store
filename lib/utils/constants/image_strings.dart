@@ -13,4 +13,9 @@ class MImage {
       "lib/assets/images/on_boarding_images/sammy-line-shopping.gif";
   static const String onBoardingImage3 =
       "lib/assets/images/on_boarding_images/sammy-line-delivery.gif";
+
+  static const String deliveredEmailIllutation =
+      "lib/assets/images/animations/sammy-line-man-receives-a-mail.png";
+  static const String staticSuccessIllutration =
+      "lib/assets/images/animations/sammy-line-man-and-woman-high-fiving-each-other.png";
 }

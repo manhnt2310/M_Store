@@ -14,6 +14,7 @@ class MTexts {
   static const String homeAppbarTitle = "Good day for shopping";
   static const String homeAppbarSubTitle = "Manh Nguyen The";
   static const String and = "and";
+  static const String mContinue = "Continue";
 
   ///-- Authentication Form Texts
   static const String firstName = "First Name";
