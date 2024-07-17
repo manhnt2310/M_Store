@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:m_store/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:m_store/features/authentication/screens/signup/signup.dart';
+import 'package:m_store/navigation_menu.dart';
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
 
@@ -66,7 +67,7 @@ class MLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () => Get.to(() => const NavigationMenu()),
                 child: const Text(MTexts.signIn),
               ),
             ),
