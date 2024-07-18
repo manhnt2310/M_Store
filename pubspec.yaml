@@ -54,6 +54,7 @@ flutter:
     - lib/assets/images/animations/
     - lib/assets/icons/categories/
     - lib/assets/images/banners/
+    - lib/assets/images/products/
 
 
   #-----------LOCAL FONTS----------------

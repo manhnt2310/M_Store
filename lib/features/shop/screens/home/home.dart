@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:m_store/common/widgets/layouts/grid_layout.dart';
+import 'package:m_store/common/widgets/products/product_cards/product_card_vertical.dart';
 import 'package:m_store/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:m_store/features/shop/screens/home/widgets/home_categories.dart';
 import 'package:m_store/features/shop/screens/home/widgets/promo_slider.dart';
@@ -14,12 +16,12 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: SingleChildScrollView(
         child: Column(
           children: [
             /// Header -- Tutorial [Section # 3, Video # 2]
-            MPrimaryHeaderContainer(
+            const MPrimaryHeaderContainer(
               child: Column(
                 children: [
                   /// Appbar -- Tutorial [Section # 3, Video # 3]
@@ -54,12 +56,24 @@ class HomeScreen extends StatelessWidget {
 
             /// Body -- Tutorial [Section # 3, Video # 5]
             Padding(
-              padding: EdgeInsets.all(MSizes.defaultSpace),
-              child: MPromoSlider(
-                banners: [
-                  MImage.promoBanner1,
-                  MImage.promoBanner2,
-                  MImage.promoBanner3,
+              padding: const EdgeInsets.all(MSizes.defaultSpace),
+              child: Column(
+                children: [
+                  /// -- Promo Slider -- Tutorial
+                  const MPromoSlider(
+                    banners: [
+                      MImage.promoBanner1,
+                      MImage.promoBanner2,
+                      MImage.promoBanner3,
+                    ],
+                  ),
+                  const SizedBox(height: MSizes.spaceBtwSections),
+
+                  /// -- Popolar Products -- Tutorial
+                  MGridLayout(
+                    itemCount: 4,
+                    itemBuilder: (_, index) => const MProductCardVertical(),
+                  ),
                 ],
               ),
             )

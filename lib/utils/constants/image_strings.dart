@@ -48,4 +48,25 @@ class MImage {
       "lib/assets/images/banners/promo-banner-2.png";
   static const String promoBanner3 =
       "lib/assets/images/banners/promo-banner-3.png";
+
+  // Products
+  static const String productImage1 =
+      "lib/assets/images/products/Air Jordan 1 Retro High OG .png";
+  static const String productImage2 =
+      "lib/assets/images/products/Jordan 1 Low.png";
+  static const String productImage3 =
+      "lib/assets/images/products/New Balance 530 White Silver Navy.png";
+  static const String productImage4 =
+      "lib/assets/images/products/New Balance 1906.png";
+  static const String productImage5 =
+      "lib/assets/images/products/New Balance 9060s.png";
+  static const String productImage6 =
+      "lib/assets/images/products/Nike Air Max 1 Golf Sport Red.png";
+  static const String productImage7 =
+      "lib/assets/images/products/Reebok Club C 85.png";
+  static const String productImage8 = "lib/assets/images/products/Samba OG.png";
+  static const String productImage9 =
+      "lib/assets/images/products/Travis Scott Air Jordan 1.png";
+  static const String productImage10 =
+      "lib/assets/images/products/Ultra Boost.png";
 }
