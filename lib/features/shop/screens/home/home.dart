@@ -69,7 +69,14 @@ class HomeScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: MSizes.spaceBtwSections),
 
-                  /// -- Popolar Products -- Tutorial
+                  // Heading
+                  MSectionHeading(
+                    title: 'Popular Product',
+                    onPressed: () {},
+                  ),
+                  const SizedBox(height: MSizes.spaceBtwItems),
+
+                  /// -- Popular Products -- Tutorial
                   MGridLayout(
                     itemCount: 4,
                     itemBuilder: (_, index) => const MProductCardVertical(),
