@@ -35,7 +35,8 @@ class MVerticalImageText extends StatelessWidget {
               padding: const EdgeInsets.all(MSizes.sm),
               decoration: BoxDecoration(
                 color:
-                    backgroundColor ?? (dark ? MColors.black : MColors.white),
+                    // backgroundColor ?? (dark ? MColors.black : MColors.white),
+                    dark ? MColors.black : MColors.white,
                 borderRadius: BorderRadius.circular(100),
               ),
               child: Center(

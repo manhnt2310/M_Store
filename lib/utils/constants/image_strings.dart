@@ -40,4 +40,12 @@ class MImage {
       "lib/assets/icons/categories/icons8-sparkling-diamond-50.png";
   static const String electronicsIcon =
       "lib/assets/icons/categories/icons8-smartphone-64.png";
+
+  // Banners
+  static const String promoBanner1 =
+      "lib/assets/images/banners/promo-banner-1.png";
+  static const String promoBanner2 =
+      "lib/assets/images/banners/promo-banner-2.png";
+  static const String promoBanner3 =
+      "lib/assets/images/banners/promo-banner-3.png";
 }
