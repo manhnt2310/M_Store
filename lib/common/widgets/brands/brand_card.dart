@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
-import '../../../../utils/constants/colors.dart';
-import '../../../../utils/constants/enums.dart';
-import '../../../../utils/constants/image_strings.dart';
-import '../../../../utils/constants/sizes.dart';
-import '../../../../utils/helpers/helper_functions.dart';
-import '../../custom_shapes/containers/rounded_container.dart';
-import '../../images/m_circular_image.dart';
-import '../../texts/m_brand_title_text_with_verified_icon.dart';
+import '../../../utils/constants/colors.dart';
+import '../../../utils/constants/enums.dart';
+import '../../../utils/constants/image_strings.dart';
+import '../../../utils/constants/sizes.dart';
+import '../../../utils/helpers/helper_functions.dart';
+import '../custom_shapes/containers/rounded_container.dart';
+import '../images/m_circular_image.dart';
+import '../texts/m_brand_title_text_with_verified_icon.dart';
 
 class MBrandCard extends StatelessWidget {
   const MBrandCard({
     super.key,
-    required this.showBorder,
     this.onTap,
+    required this.showBorder,
   });
 
   final bool showBorder;

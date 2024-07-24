@@ -1,17 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:m_store/common/widgets/appbar/appbar.dart';
-import 'package:m_store/common/widgets/custom_shapes/containers/rounded_container.dart';
+import 'package:m_store/common/widgets/appbar/tabbar.dart';
 import 'package:m_store/common/widgets/custom_shapes/containers/search_container.dart';
 import 'package:m_store/common/widgets/layouts/grid_layout.dart';
-import 'package:m_store/common/widgets/products/cart/brand_card.dart';
+import 'package:m_store/common/widgets/brands/brand_card.dart';
 import 'package:m_store/common/widgets/products/cart/cart_menu_icon.dart';
-import 'package:m_store/common/widgets/texts/m_brand_title_text_with_verified_icon.dart';
 import 'package:m_store/common/widgets/texts/section_heading.dart';
+import 'package:m_store/features/shop/screens/store/widgets/category_tab.dart';
 import 'package:m_store/utils/constants/colors.dart';
-import 'package:m_store/utils/constants/enums.dart';
-import 'package:m_store/utils/constants/image_strings.dart';
 import 'package:m_store/utils/helpers/helper_functions.dart';
-import '../../../../common/widgets/images/m_circular_image.dart';
 import '../../../../utils/constants/sizes.dart';
 
 class StoreScreen extends StatelessWidget {
@@ -78,24 +75,26 @@ class StoreScreen extends StatelessWidget {
                   ),
 
                   /// Tabs - Tutorial [Section # 3, Video # 8]
-                  bottom: TabBar(
-                    isScrollable: true,
-                    indicatorColor: MColors.primary,
-                    unselectedLabelColor: MColors.darkGrey,
-                    labelColor: MHelperFunctions.isDarkMode(context)
-                        ? MColors.white
-                        : MColors.primary,
-                    tabs: [
-                      Tab(child: Text('Sport')),
-                      Tab(child: Text('Furniture')),
-                      Tab(child: Text('Electronics')),
-                      Tab(child: Text('Clothes')),
-                      Tab(child: Text('Cosmestics')),
-                    ],
-                  )),
+                  bottom: const MTabBar(tabs: [
+                    Tab(child: Text('Sport')),
+                    Tab(child: Text('Furniture')),
+                    Tab(child: Text('Electronics')),
+                    Tab(child: Text('Clothes')),
+                    Tab(child: Text('Cosmestics')),
+                  ])),
             ];
           },
-          body: Container(),
+
+          /// -- Body -- Tutorial [Section # 3, Video # 8]
+          body: const TabBarView(
+            children: [
+              MCategoryTab(),
+              MCategoryTab(),
+              MCategoryTab(),
+              MCategoryTab(),
+              MCategoryTab(),
+            ],
+          ),
         ),
       ),
     );

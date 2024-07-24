@@ -69,4 +69,23 @@ class MImage {
       "lib/assets/images/products/Travis Scott Air Jordan 1.png";
   static const String productImage10 =
       "lib/assets/images/products/Ultra Boost.png";
+  static const String productImage11 =
+      "lib/assets/images/products/Adidas Fleece Zipper .png";
+  static const String productImage12 =
+      "lib/assets/images/products/Adidas sweatshirt.png";
+  static const String productImage13 =
+      "lib/assets/images/products/Balenciaga Hoodie .png";
+  static const String productImage14 =
+      "lib/assets/images/products/Jordan  jacket.png";
+  static const String productImage15 =
+      "lib/assets/images/products/KAWS x Uniqlo.png";
+  static const String productImage16 =
+      "lib/assets/images/products/New Balance jacket.png";
+  static const String productImage17 =
+      "lib/assets/images/products/Nike Big Swoosh Jackets.png";
+  static const String productImage18 =
+      "lib/assets/images/products/Nike Jacket .png";
+  static const String productImage19 =
+      "lib/assets/images/products/NIKE X NOCTA.png";
+  static const String productImage20 = "lib/assets/images/products/uniqlo.png";
 }

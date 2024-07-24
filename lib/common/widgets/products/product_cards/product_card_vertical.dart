@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:m_store/common/styles/shadows.dart';
 import 'package:m_store/common/widgets/custom_shapes/containers/rounded_container.dart';
@@ -32,6 +31,7 @@ class MProductCardVertical extends StatelessWidget {
           color: dark ? MColors.darkerGrey : MColors.white,
         ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             /// Thumbnail, Wishlist Button, Discount Tag
             MRoundedContainer(
