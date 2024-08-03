@@ -88,4 +88,22 @@ class MImage {
   static const String productImage19 =
       "lib/assets/images/products/NIKE X NOCTA.png";
   static const String productImage20 = "lib/assets/images/products/uniqlo.png";
+  static const String productImage21 =
+      "lib/assets/images/products/Apple Watch.png";
+  static const String productImage22 = "lib/assets/images/products/Case PC.png";
+  static const String productImage23 =
+      "lib/assets/images/products/Dell Inspiron.png";
+  static const String productImage24 =
+      "lib/assets/images/products/iPhone 14 Pro Max.png";
+  static const String productImage25 =
+      "lib/assets/images/products/MacBook Air.png";
+  static const String productImage26 =
+      "lib/assets/images/products/MacBook Pro.png";
+  static const String productImage27 =
+      "lib/assets/images/products/Monitor PC .png";
+  static const String productImage28 =
+      "lib/assets/images/products/Samsung laptop.png";
+  static const String productImage29 =
+      "lib/assets/images/products/Smart Watch.png";
+  static const String productImage30 = "lib/assets/images/products/Z Flip.png";
 }
