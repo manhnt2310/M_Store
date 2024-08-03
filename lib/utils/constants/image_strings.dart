@@ -49,6 +49,9 @@ class MImage {
   static const String promoBanner3 =
       "lib/assets/images/banners/promo-banner-3.png";
 
+  // User
+  static const String user = "lib/assets/images/user/user.png";
+
   // Products
   static const String productImage1 =
       "lib/assets/images/products/Air Jordan 1 Retro High OG .png";

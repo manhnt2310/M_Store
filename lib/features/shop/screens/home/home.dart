@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:m_store/common/widgets/layouts/grid_layout.dart';
 import 'package:m_store/common/widgets/products/product_cards/product_card_vertical.dart';
 import 'package:m_store/features/shop/screens/home/widgets/home_appbar.dart';
@@ -50,6 +51,7 @@ class HomeScreen extends StatelessWidget {
                       ],
                     ),
                   ),
+                  SizedBox(height: MSizes.spaceBtwSections)
                 ],
               ),
             ),
