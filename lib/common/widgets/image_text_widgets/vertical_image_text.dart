@@ -9,7 +9,7 @@ class MVerticalImageText extends StatelessWidget {
     required this.image,
     required this.title,
     this.textColor = MColors.white,
-    this.backgroundColor = MColors.white,
+    this.backgroundColor,
     this.onTap,
   });
 
