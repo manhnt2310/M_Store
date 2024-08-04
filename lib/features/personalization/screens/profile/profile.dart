@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:intl/number_symbols_data.dart';
 import 'package:m_store/common/widgets/appbar/appbar.dart';
 import 'package:m_store/common/widgets/images/m_circular_image.dart';
 import 'package:m_store/common/widgets/texts/section_heading.dart';
