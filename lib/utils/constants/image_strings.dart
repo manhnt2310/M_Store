@@ -6,6 +6,7 @@ class MImage {
   // -- Social Logos
   static const String facebook = "lib/assets/logos/fb.png";
   static const String google = "lib/assets/logos/google.png";
+  static const String nike = "lib/assets/logos/Nike Logo.png";
 
   // -- On Boarding
   static const String onBoardingImage1 =

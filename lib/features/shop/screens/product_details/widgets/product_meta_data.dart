@@ -75,7 +75,7 @@ class MProductMetaData extends StatelessWidget {
         Row(
           children: [
             MCircularImage(
-              image: MImage.shoeIcon,
+              image: MImage.nike,
               width: 32,
               height: 32,
               overlayColor: darkMode ? MColors.white : MColors.black,
