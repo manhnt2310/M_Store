@@ -53,6 +53,10 @@ class MImage {
   // User
   static const String user = "lib/assets/images/user/user.png";
 
+  static const String userProfileImage1 = "lib/assets/images/reviews/user1.png";
+  static const String userProfileImage2 = "lib/assets/images/reviews/user2.png";
+  static const String userProfileImage3 = "lib/assets/images/reviews/user3.png";
+
   // Products
   static const String productImage1 =
       "lib/assets/images/products/Air Jordan 1 Retro High OG .png";
