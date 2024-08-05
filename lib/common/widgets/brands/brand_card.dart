@@ -37,7 +37,7 @@ class MBrandCard extends StatelessWidget {
             Flexible(
               child: MCircularImage(
                 isNetworkImage: false,
-                image: MImage.clothIcon,
+                image: MImage.nike,
                 backgroundColor: Colors.transparent,
                 overlayColor: isDark ? MColors.white : MColors.black,
               ),
