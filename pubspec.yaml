@@ -54,6 +54,7 @@ flutter:
     - lib/assets/images/user/
     - lib/assets/images/reviews/
     - lib/assets/icons/brands/
+    - lib/assets/icons/payment_methods/
     - lib/assets/images/on_boarding_images/
     - lib/assets/images/animations/
     - lib/assets/icons/categories/

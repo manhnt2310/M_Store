@@ -1,11 +1,11 @@
 class MPricingCalculator {
   static double calculateTotalPrice(double productPrice, String location) {
     double taxRate = getTaxRateForLocation(location);
-    double taxAmpunt = productPrice * taxRate;
+    double taxAmount = productPrice * taxRate;
 
     double shippingCost = getShippingCost(location);
 
-    double totalPrice = productPrice + taxAmpunt + shippingCost;
+    double totalPrice = productPrice + taxAmount + shippingCost;
     return totalPrice;
   }
 

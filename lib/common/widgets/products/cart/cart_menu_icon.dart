@@ -41,7 +41,7 @@ class MCartCounterIcon extends StatelessWidget {
             ),
             child: Center(
               child: Text(
-                '10',
+                '2',
                 style: Theme.of(context).textTheme.labelLarge!.apply(
                       color: MColors.white,
                       fontSizeFactor: 0.8,

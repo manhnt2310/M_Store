@@ -57,6 +57,23 @@ class MImage {
   static const String userProfileImage2 = "lib/assets/images/reviews/user2.png";
   static const String userProfileImage3 = "lib/assets/images/reviews/user3.png";
 
+  // Payment Methods
+  static const String applePay =
+      "lib/assets/icons/payment_methods/apple-pay.png";
+  static const String creditCard =
+      "lib/assets/icons/payment_methods/credit-card.png";
+  static const String googlePay =
+      "lib/assets/icons/payment_methods/google-pay.png";
+  static const String masterCard =
+      "lib/assets/icons/payment_methods/mastercard.png";
+  static const String payPay = "lib/assets/icons/payment_methods/paypal.png";
+  static const String payStack =
+      "lib/assets/icons/payment_methods/paystack.png";
+  static const String paytm = "lib/assets/icons/payment_methods/paytm.png";
+  static const String successfullPaymentIcon =
+      "lib/assets/icons/payment_methods/successful-payment-icon.png";
+  static const String visa = "lib/assets/icons/payment_methods/visa.png";
+
   // Products
   static const String productImage1 =
       "lib/assets/images/products/Air Jordan 1 Retro High OG .png";

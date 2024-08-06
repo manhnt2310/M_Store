@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:m_store/features/shop/screens/cart/widgets/cart_items.dart';
+import 'package:m_store/features/shop/screens/checkout/checkout.dart';
 import 'package:m_store/utils/constants/sizes.dart';
 
 import '../../../../common/widgets/appbar/appbar.dart';
-import '../../../../common/widgets/products/cart/add_remove_button.dart';
-import '../../../../common/widgets/products/cart/cart_item.dart';
-import '../../../../common/widgets/texts/product_price_text.dart';
 
 class CartScreen extends StatelessWidget {
   const CartScreen({super.key});
@@ -16,42 +16,19 @@ class CartScreen extends StatelessWidget {
         showBackArrow: true,
         title: Text('Cart', style: Theme.of(context).textTheme.headlineSmall),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(MSizes.defaultSpace),
-        child: ListView.separated(
-          shrinkWrap: true,
-          itemCount: 10,
-          separatorBuilder: (_, __) =>
-              const SizedBox(height: MSizes.spaceBtwSections),
-          itemBuilder: (_, index) => const Column(
-            children: [
-              MCartItem(),
-              SizedBox(height: MSizes.spaceBtwItems),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Row(
-                    children: [
-                      /// Extra Space
-                      SizedBox(width: 70),
+      body: const Padding(
+        padding: EdgeInsets.all(MSizes.defaultSpace),
 
-                      /// Add Remove Buttons
-                      MProductQuantityWithAddRemoveButton(),
-                    ],
-                  ),
-
-                  /// -- Product Total Price
-                  MProductPriceText(price: '1875'),
-                ],
-              ),
-            ],
-          ),
-        ),
+        /// -- Item in Cart
+        child: MCartItems(),
       ),
+
+      /// -- Bottom Checkout Button
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.all(MSizes.defaultSpace),
         child: ElevatedButton(
-            onPressed: () {}, child: const Text('Checkout \$1875.0')),
+            onPressed: () => Get.to(() => const CheckoutScreen()),
+            child: const Text('Checkout \$1875.0')),
       ),
     );
   }
