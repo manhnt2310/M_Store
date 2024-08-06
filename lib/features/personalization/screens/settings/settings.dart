@@ -7,10 +7,12 @@ import 'package:m_store/common/widgets/list_tiles/settings_menu_tile.dart';
 import 'package:m_store/common/widgets/texts/section_heading.dart';
 import 'package:m_store/features/personalization/screens/address/address.dart';
 import 'package:m_store/features/personalization/screens/profile/profile.dart';
+import 'package:m_store/features/shop/screens/order/order.dart';
 import 'package:m_store/utils/constants/colors.dart';
 import 'package:m_store/utils/constants/sizes.dart';
 
 import '../../../../common/widgets/list_tiles/user_profile_tile.dart';
+import '../../../shop/screens/cart/cart.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -63,15 +65,17 @@ class SettingsScreen extends StatelessWidget {
                     subTitle: "Set shopping delivery address",
                     onTap: () => Get.to(() => const UserAddressScreen()),
                   ),
-                  const MSettingsMenuTile(
+                  MSettingsMenuTile(
                     icon: Iconsax.shopping_cart,
                     title: "My Cart",
                     subTitle: "Add, remove product and move to checkout",
+                    onTap: () => Get.to(() => const CartScreen()),
                   ),
-                  const MSettingsMenuTile(
+                  MSettingsMenuTile(
                     icon: Iconsax.bag_tick,
                     title: "My Orders",
                     subTitle: "In-Progress and Completed Orders",
+                    onTap: () => Get.to(() => const OrderScreen()),
                   ),
                   const MSettingsMenuTile(
                     icon: Iconsax.bank,

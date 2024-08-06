@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:m_store/common/widgets/texts/section_heading.dart';
+import 'package:m_store/features/personalization/screens/address/address.dart';
 
 import '../../../../../utils/constants/sizes.dart';
 
@@ -12,7 +14,9 @@ class MBillingAddressSection extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         MSectionHeading(
-            title: 'Shipping Address', buttonTitle: 'Change', onPressed: () {}),
+            title: 'Shipping Address',
+            buttonTitle: 'Change',
+            onPressed: () => Get.to(() => const UserAddressScreen())),
         Text('Manh Nguyen', style: Theme.of(context).textTheme.bodyLarge),
         const SizedBox(height: MSizes.spaceBtwItems / 2),
         Row(

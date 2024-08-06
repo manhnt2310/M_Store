@@ -29,12 +29,12 @@ class MBillingPaymentSection extends StatelessWidget {
               backgroundColor: dark ? MColors.light : MColors.white,
               padding: const EdgeInsets.all(MSizes.sm),
               child: const Image(
-                image: AssetImage(MImage.payPay),
+                image: AssetImage(MImage.applePay),
                 fit: BoxFit.contain,
               ),
             ),
             const SizedBox(width: MSizes.spaceBtwItems / 2),
-            Text('Paypal', style: Theme.of(context).textTheme.bodyLarge),
+            Text('Apple Pay', style: Theme.of(context).textTheme.bodyLarge),
           ],
         )
       ],
