@@ -97,6 +97,8 @@ class MProductCardVertical extends StatelessWidget {
             ),
 
             const Spacer(),
+
+            /// Price Row
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -105,6 +107,8 @@ class MProductCardVertical extends StatelessWidget {
                   padding: EdgeInsets.only(left: MSizes.sm),
                   child: MProductPriceText(price: '2500'),
                 ),
+
+                /// Add to Cart Button
                 Container(
                   decoration: const BoxDecoration(
                     color: MColors.dark,
@@ -123,7 +127,7 @@ class MProductCardVertical extends StatelessWidget {
                       ),
                     ),
                   ),
-                )
+                ),
               ],
             ),
           ],

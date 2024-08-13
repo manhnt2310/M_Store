@@ -49,6 +49,8 @@ class MImage {
       "lib/assets/images/banners/promo-banner-2.png";
   static const String promoBanner3 =
       "lib/assets/images/banners/promo-banner-3.png";
+  static const String promoBanner4 =
+      "lib/assets/images/banners/promo-banner-4.png";
 
   // User
   static const String user = "lib/assets/images/user/user.png";
@@ -75,6 +77,7 @@ class MImage {
   static const String visa = "lib/assets/icons/payment_methods/visa.png";
 
   // Products
+  // Sneaker
   static const String productImage1 =
       "lib/assets/images/products/Air Jordan 1 Retro High OG .png";
   static const String productImage2 =
@@ -94,6 +97,8 @@ class MImage {
       "lib/assets/images/products/Travis Scott Air Jordan 1.png";
   static const String productImage10 =
       "lib/assets/images/products/Ultra Boost.png";
+
+  // Clothes
   static const String productImage11 =
       "lib/assets/images/products/Adidas Fleece Zipper .png";
   static const String productImage12 =
@@ -113,6 +118,8 @@ class MImage {
   static const String productImage19 =
       "lib/assets/images/products/NIKE X NOCTA.png";
   static const String productImage20 = "lib/assets/images/products/uniqlo.png";
+
+  // Electronics
   static const String productImage21 =
       "lib/assets/images/products/Apple Watch.png";
   static const String productImage22 = "lib/assets/images/products/Case PC.png";
@@ -131,4 +138,22 @@ class MImage {
   static const String productImage29 =
       "lib/assets/images/products/Smart Watch.png";
   static const String productImage30 = "lib/assets/images/products/Z Flip.png";
+
+  //Sport
+  static const String productImage31 =
+      "lib/assets/images/products/Badminton.png";
+  static const String productImage32 =
+      "lib/assets/images/products/Baseball.png";
+  static const String productImage33 =
+      "lib/assets/images/products/Basketball.png";
+  static const String productImage34 =
+      "lib/assets/images/products/Football.png";
+  static const String productImage35 = "lib/assets/images/products/Golf.png";
+  static const String productImage36 = "lib/assets/images/products/Patin.png";
+  static const String productImage37 =
+      "lib/assets/images/products/Pickleball.png";
+  static const String productImage38 = "lib/assets/images/products/Swim.png";
+  static const String productImage39 = "lib/assets/images/products/Tennis.png";
+  static const String productImage40 =
+      "lib/assets/images/products/Volleyball.png";
 }

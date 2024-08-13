@@ -31,7 +31,7 @@ class CheckoutScreen extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.all(MSizes.defaultSpace),
+          padding: const EdgeInsets.all(MSizes.defaultSpace),
           child: Column(
             children: [
               /// -- Item in Cart

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:m_store/common/widgets/texts/section_heading.dart';
+import 'package:m_store/features/shop/screens/checkout/widgets/payment_method.dart';
 import 'package:m_store/utils/constants/image_strings.dart';
 
 import '../../../../../common/widgets/custom_shapes/containers/rounded_container.dart';
@@ -18,7 +20,7 @@ class MBillingPaymentSection extends StatelessWidget {
         MSectionHeading(
           title: 'Payment Method',
           buttonTitle: 'Change',
-          onPressed: () {},
+          onPressed: () => Get.to(() => const PaymentMethod()),
         ),
         const SizedBox(height: MSizes.spaceBtwItems / 2),
         Row(
