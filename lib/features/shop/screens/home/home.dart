@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:get/get.dart';
 import 'package:m_store/common/widgets/layouts/grid_layout.dart';
 import 'package:m_store/common/widgets/products/product_cards/product_card_vertical.dart';
+import 'package:m_store/features/shop/screens/all_products/all_products.dart';
 import 'package:m_store/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:m_store/features/shop/screens/home/widgets/home_categories.dart';
 import 'package:m_store/features/shop/screens/home/widgets/promo_slider.dart';
@@ -74,7 +76,7 @@ class HomeScreen extends StatelessWidget {
                   // Heading
                   MSectionHeading(
                     title: 'Popular Product',
-                    onPressed: () {},
+                    onPressed: () => Get.to(() => const AllProducts()),
                   ),
                   const SizedBox(height: MSizes.spaceBtwItems),
 

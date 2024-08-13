@@ -105,7 +105,7 @@ class MProductCardVertical extends StatelessWidget {
                 /// Price
                 const Padding(
                   padding: EdgeInsets.only(left: MSizes.sm),
-                  child: MProductPriceText(price: '2500'),
+                  child: MProductPriceText(price: '2500.0'),
                 ),
 
                 /// Add to Cart Button
