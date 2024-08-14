@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:m_store/common/widgets/success_screen/success_screen.dart';
 import 'package:m_store/features/authentication/screens/login/login.dart';
+import 'package:m_store/navigation_menu.dart';
 import 'package:m_store/utils/constants/sizes.dart';
 import 'package:m_store/utils/helpers/helper_functions.dart';
 
@@ -69,7 +70,7 @@ class VerifyEmailScreen extends StatelessWidget {
                         image: MImage.staticSuccessIllutration,
                         title: MTexts.yourAccountCreatedTitle,
                         subTitle: MTexts.yourAccountCreatedSubTitle,
-                        onPressed: () => Get.to(() => const LoginScreen()),
+                        onPressed: () => Get.to(() => const NavigationMenu()),
                       )),
                   child: const Text(MTexts.mContinue),
                 ),
